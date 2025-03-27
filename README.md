@@ -19,4 +19,4 @@
 
 # Link Ejemplo
 
-  * [Repositorio clonado] (https://github.com/NELSONLUENGAS/Landing-Page_g93)
+  * [Repositorio clonado](https://github.com/NELSONLUENGAS/Landing-Page_g93)
