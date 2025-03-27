@@ -13,6 +13,8 @@
   - Paso 1: `git clone <url> <nombre de directorio local> (https://github.com/tailwindtoolbox/Landing-Page.git) `
   - Paso 2: `cd <nombre del directorio> (Landing-Page)`
   - Paso 3: `code .`
+
+  Prueba Daniela Elizondo Prueba1
   
 
 # Link Ejemplo
