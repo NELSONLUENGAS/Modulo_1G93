@@ -2,3 +2,4 @@
 
   **Proyecto de casas**
   
+  - Paso 1: ``` git init ```
