@@ -26,4 +26,12 @@
 
 - Foks:
   
+  * Link: [Fork a Repositorio de Pepito](https://github.com/NELSONLUENGAS/Landing-Page_g93)
+  * Image:
   <img src="./assets/images/Fork_1.png"/>
+
+- Commits:
+   
+  * Link: [Commit Actuliza links](https://github.com/NELSONLUENGAS/Landing-Page_g93/commit/b1d2246fbc10dedea52497759820c00baf883168)
+  * Image:
+  <img src="./assets/images/commit_1.png"/>
