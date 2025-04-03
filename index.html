@@ -19,9 +19,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="custom-header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/images/logo.png" alt="Logo principal" width="80" class="">
                 </a>
@@ -30,239 +30,109 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+                <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./ciudad.html">Ciudad</a>
+                            <a class="nav-link text-black d-flex flex-column justify-content-center align-items-center"
+                                href="#experiencia">
+                                <i class="bi bi-stars fs-4"></i>
+                                <p class="fw-bold text-uppercase">
+                                    Experiencia
+                                </p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./campos.html">Campos</a>
+                            <a class="nav-link text-black d-flex flex-column justify-content-center align-items-center"
+                                href="#educacion">
+                                <i class="bi bi-book-fill fs-4"></i>
+                                <p class="fw-bold text-uppercase">
+                                    Educación
+                                </p>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./playas.html">Playas</a>
+                            <a class="nav-link text-black d-flex flex-column justify-content-center align-items-center"
+                                href="#skills">
+                                <i class="bi bi-tools fs-4"></i>
+                                <p class="fw-bold text-uppercase">
+                                    Habilidades
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black d-flex flex-column justify-content-center align-items-center"
+                                href="#portafolio">
+                                <i class="bi bi-briefcase-fill fs-4"></i>
+                                <p class="fw-bold text-uppercase">
+                                    Portafolio
+                                </p>
+                            </a>
                         </li>
                     </ul>
-
-                    <div>
-                        <button class="btn btn-outline-success" type="button">Log in</button>
-                        <button class="btn btn-outline-success" type="button">Sig up</button>
-                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="container-fluid bg-gradient bg-info min-vh-100 py-4">
-        <section class="container">
-            <h1 class="p-3 text-center">Todos los Inmuebles</h1>
 
-            <div class="g-3 row">
-                <h2>Campo</h2>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #1 -->
-                    <div class="card">
-                        <img src="./assets/images/campo.png" class="card-img-top" alt="Inmueble Campo">
-                        <div class="card-body">
-                            <h5 class="card-title">Cabaña rústica en el bosque</h5>
-                            <p class="card-text">Cabaña tranquila rodeada de naturaleza, ideal para desconectar.</p>
+    <main class="container-fluid bg-gradient bg-info min-vh-100 pt-4 p-0">
+        <section id="experiencia">
+            <h1 class="mb-5 px-4 text-center">
+                <i class="bi bi-stars fs-4"></i> Mis Experiencias
+            </h1>
+        </section>
+        <section class="bg-white" id="educacion">
+            <h1 class="mb-5 px-4 text-center">
+                <i class="bi bi-book-fill fs-4"></i> Mi Educación
+            </h1>
+        </section>
+        <section style="padding-top: 0px;" class="d-flex flex-column  pb-5" id="skills">
+            <div style="height: 180px;" class="shapedividers_com-1829">
 
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    75€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Campos
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    La Patagonia, Argentina
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #2 -->
-                    <div class="card">
-                        <img src="./assets/images/campo.png" class="card-img-top" alt="Inmueble Campo">
-                        <div class="card-body">
-                            <h5 class="card-title">Cabaña rústica en el bosque</h5>
-                            <p class="card-text">Cabaña tranquila rodeada de naturaleza, ideal para desconectar.</p>
-
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    75€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Campos
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    La Patagonia, Argentina
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #3 -->
-                    <div class="card">
-                        <img src="./assets/images/campo.png" class="card-img-top" alt="Inmueble Campo">
-                        <div class="card-body">
-                            <h5 class="card-title">Cabaña rústica en el bosque</h5>
-                            <p class="card-text">Cabaña tranquila rodeada de naturaleza, ideal para desconectar.</p>
-
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    75€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Campos
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    La Patagonia, Argentina
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <h1 class="mb-5 px-4 text-center">
+                <i class="bi bi-tools fs-4"></i> Mis Habilidades
+            </h1>
 
-            <div class="g-3 row mt-4">
-                <h2>Playa</h2>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #1 -->
-                    <div class="card">
-                        <img src="./assets/images/playa.jpg" class="card-img-top" alt="Inmueble Playa">
-                        <div class="card-body">
-                            <h5 class="card-title">Casa en la playa con vista al mar</h5>
-                            <p class="card-text">Hermosa casa frente al mar con terraza y piscina privada.</p>
-
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    120€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Playas
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    Playa La viña del mar, Chile
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="d-flex flex-wrap justify-content-center gap-4 px-4 mb-5">
+                <div style="width: fit-content;"
+                    class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-light shadow-lg p-4 cursor-pointer hover-transform">
+                    <i class="fa-brands fa-html5 fs-120"></i>
+                    <h2 class="">HTML</h2>
                 </div>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #2 -->
-                    <div class="card">
-                        <img src="./assets/images/playa.jpg" class="card-img-top" alt="Inmueble Playa">
-                        <div class="card-body">
-                            <h5 class="card-title">Casa en la playa con vista al mar</h5>
-                            <p class="card-text">Hermosa casa frente al mar con terraza y piscina privada.</p>
-
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    120€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Playas
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    Playa La viña del mar, Chile
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <div style="width: fit-content;"
+                    class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-light shadow-lg p-4 cursor-pointer hover-transform">
+                    <i class="fa-brands fa-css fs-120"></i>
+                    <h2 class="">CSS</h2>
                 </div>
-                <div class="col col-lg-4 col-sm-6">
-                    <!-- Card #3 -->
-                    <div class="card">
-                        <img src="./assets/images/playa.jpg" class="card-img-top" alt="Inmueble Playa">
-                        <div class="card-body">
-                            <h5 class="card-title">Casa en la playa con vista al mar</h5>
-                            <p class="card-text">Hermosa casa frente al mar con terraza y piscina privada.</p>
-
-                            <div class="d-flex justify-content-between">
-                                <button class="badge bg-info border-0 p-2 rounded-pill">
-                                    120€/noche
-                                </button>
-                                <button class="badge bg-success border-0 p-2 rounded-pill">
-                                    Playas
-                                </button>
-                            </div>
-
-                            <div class="border-secondary border-top rounded-top-3 mt-4 pt-2">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                <small>
-                                    Playa del Sol, España
-                                </small>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex btn-group w-100 me-2" role="group" aria-label="Second group">
-                                <button type="button" class="btn btn-info fw-bold">
-                                    Contactar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <div style="width: fit-content;"
+                    class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-light shadow-lg p-4 cursor-pointer hover-transform">
+                    <i class="fa-brands fa-bootstrap fs-120"></i>
+                    <h2 class="">Bootstrap</h2>
+                </div>
+                <div style="width: fit-content;"
+                    class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-light shadow-lg p-4 cursor-pointer hover-transform">
+                    <i class="fa-brands fa-git-alt fs-120"></i>
+                    <h2 class="">GIT</h2>
+                </div>
+                <div style="width: fit-content;"
+                    class="d-flex justify-content-center align-items-center flex-column rounded-4 bg-light shadow-lg p-4 cursor-pointer hover-transform">
+                    <i class="fa-brands fa-github fs-120"></i>
+                    <h2 class="">GitHub</h2>
                 </div>
             </div>
         </section>
+
+        <section id="portafolio" class="portafolio_section pt-0">
+            <div style="height: 120px;" class="shapedividers_com-3249"></div>
+
+            <h1 class="mb-5 px-4 text-center text-white">
+                <i class="bi bi-briefcase-fill fs-4"></i> Mi Portafolio
+            </h1>
+
+        </section>
     </main>
+
     <footer class="container">
         <section class="d-flex flex-wrap align-items-center border-top justify-content-between my-4 py-3">
             <div class="col-md-4 d-flex align-items-center">
@@ -291,6 +161,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8c0839d651.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
