@@ -24,6 +24,12 @@
 
 # Ejemplo de entrega 
 
+- Mi cv: 
+  
+  * Link: [Pagina web](https://nelsonluengas.github.io/Modulo_1G93/)
+  * Image:
+  <img src="./assets/images/web.png"/>
+
 - Foks:
   
   * Link: [Fork a Repositorio de Pepito](https://github.com/NELSONLUENGAS/Landing-Page_g93)
